@@ -1,0 +1,227 @@
+/* font-family: 'Assistant', sans-serif; */
+
+body {
+    font-family: 'Assistant', sans-serif;
+    background-color: #F5F5F5;
+}
+
+p {
+    color: #757575;
+}
+
+:root {
+    --mainColor: #0078FF;
+}
+
+.color_min_color {
+    color: var(--mainColor);
+}
+
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
+    color: #fff;
+}
+
+header {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.line {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+}
+
+.line1 {
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+}
+
+.change_word:after {
+    content: "";
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        content: "";
+    }
+
+    3% {
+        content: "e";
+    }
+
+    6% {
+        content: "ev";
+    }
+
+    9% {
+        content: "eve";
+    }
+
+    12% {
+        content: "evel";
+    }
+
+    15% {
+        content: "evelo";
+    }
+
+    18% {
+        content: "evelop";
+    }
+
+    21% {
+        content: "evelope";
+    }
+
+    24% {
+        content: "eveloper";
+    }
+
+    27% {
+        content: "evelope";
+    }
+
+    30% {
+        content: "evelop";
+    }
+
+    33% {
+        content: "evelo";
+    }
+
+    36% {
+        content: "evel";
+    }
+
+    39% {
+        content: "eve";
+    }
+
+    42% {
+        content: "ev";
+    }
+
+    45% {
+        content: "e";
+    }
+
+    48% {
+        content: "";
+    }
+
+
+    57% {
+        content: "e";
+    }
+
+    60% {
+        content: "es";
+    }
+
+    63% {
+        content: "esi";
+    }
+
+    66% {
+        content: "esig";
+    }
+
+    69% {
+        content: "esign";
+    }
+
+    72% {
+        content: "esigne";
+    }
+
+    75% {
+        content: "esigner";
+    }
+
+    78% {
+        content: "esigne";
+    }
+
+    81% {
+        content: "esign";
+    }
+
+    84% {
+        content: "esig";
+    }
+
+    87% {
+        content: "esi";
+    }
+
+    90% {
+        content: "es";
+    }
+
+    93% {
+        content: "e";
+    }
+
+    96% {
+        content: "";
+    }
+
+    99% {
+        content: "";
+    }
+}
+
+.border_edit {
+    border: 10px solid var(--mainColor);
+    border-radius: 50%;
+}
+
+.border_edit1 {
+    border: 10px solid white;
+    border-radius: 50%;
+}
+
+.border_edit:hover {
+    background-color: #0078FF;
+    border: 10px solid #F5F5F5;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.back_img {
+    background-image: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(59, 143, 239, 0.8855917366946778) 0%), url(../images/post-3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.zoom_img:hover {
+    transform: scale(1.5);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.back_img2 {
+    background-image: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(59, 143, 239, 0.8855917366946778) 0%), url(../images/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contact .firstTwo input{
+    width: 48%;
+  }
